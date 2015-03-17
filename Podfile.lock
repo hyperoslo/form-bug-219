@@ -37,6 +37,7 @@ PODS:
 
 DEPENDENCIES:
   - Form
+  - NSJSONSerialization-ANDYJSONFile
   - NSObject-HYPTesting
 
 SPEC CHECKSUMS:

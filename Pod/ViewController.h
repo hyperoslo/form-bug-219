@@ -1,6 +1,8 @@
 @import UIKit;
 
-@interface ViewController : UIViewController
+@interface ViewController : UICollectionViewController
+
+- (instancetype)init;
 
 @end
 

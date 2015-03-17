@@ -1,0 +1,50 @@
+{
+  "id":"personal-details",
+  "title":"Personal Details",
+  "sections":[
+    {
+      "id":"personal-details-0",
+      "fields":[
+        {
+          "id":"first_name",
+          "title":"First name",
+          "subtitle":"Fornavn",
+          "type":"name",
+          "size":{
+            "width":30,
+            "height":1
+          },
+          "validations":{
+            "required":true,
+            "min_length":2
+          }
+        },
+        {
+          "id":"last_name",
+          "title":"Last name",
+          "type":"name",
+          "subtitle":"Obs! Husk å kjøpe melk",
+          "size":{
+            "width":30,
+            "height":1
+          },
+          "validations":{
+            "required":true,
+            "min_length":2
+          }
+        },
+        {
+          "id":"display_name",
+          "title":"Display name",
+          "subtitle":"This is the name that is going to be used across the application.",
+          "type":"text",
+          "size":{
+            "width":40,
+            "height":1
+          },
+          "formula":"first_name last_name"
+        }
+      ]
+    }
+  ]
+}
